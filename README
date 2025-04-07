@@ -1,0 +1,41 @@
+WELCOME TO THE GEMDAT WORKSHOP
+
+Dear participants,
+
+Welcome to our workshop on GEMDAT, an open-source project for analyzing Molecular Dynamics (MD) simulations. Throughout this workshop, we will explore GEMDAT’s functionality using sample data we provide. If you already have simulation data from VASP, LAMMPS, or GROMACS, you are encouraged to bring it along and test GEMDAT with your own data.
+
+REQUIREMENTS
+- Python 3.10 or newer
+- A working Python environment (virtualenv, conda, or similar)
+- (Optional) Your own MD simulation data, if you wish to explore beyond our provided examples
+
+INSTALLATION INSTRUCTIONS
+Choose one of the following methods to install GEMDAT:
+
+1) Using virtualenv
+
+Create and activate a new virtual environment:
+python3 -m venv env 
+source env/bin/activate
+
+Then install GEMDAT via pip:
+python3 -m pip install gemdat
+
+2) Using Conda
+
+Create and activate a new conda environment:
+conda create -n gemdat python=3.10 
+conda activate gemdat
+
+Then install GEMDAT via pip:
+pip install gemdat
+
+TROUBLESHOOTING
+If you run into any issues, please contact the organizers during the workshop or email us.
+
+SOURCE CODE AND FEEDBACK
+The GEMDAT source code is available on GitHub: https://github.com/GEMDAT-repos/GEMDAT.git
+
+We welcome suggestions, improvements, and pull requests. Your contributions help make GEMDAT more robust and versatile.
+
+Thank you for participating in this workshop! We look forward to exploring GEMDAT together.
